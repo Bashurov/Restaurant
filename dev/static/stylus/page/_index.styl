@@ -1,0 +1,98 @@
+.aboutUs
+  margin-top 20px
+
+.booking-block
+  max-width 565px
+.booking-form
+  display grid
+  grid-template-columns auto
+  grid-template-rows auto auto
+  grid-gap 8px 
+  &__input
+    display grid
+    grid-template-columns auto auto
+    grid-template-rows auto auto auto
+    grid-gap 8px
+    margin-top 50px
+  input
+    height 60px
+    border none
+    border-radius 5px
+    background inputColor
+    font-size .875rem
+    line-height 19px
+    text-indent 20px
+    color grayTextColor
+  &__button_btn
+    width 100%
+    height 60px
+    background lineColor
+    color whiteColor
+    &:hover
+      color lineColor
+      background-color grayTextColor
+.input-chevron
+  position relative
+  input
+    width 100%
+.fa-chevron-down:before
+  position absolute
+  right: 20px
+  top 20px
+  font-size 1.25rem
+  color grayTextColor
+.working-hours
+  text-align center
+  font-size 0.75rem
+  line-height 100px 
+  color grayTextColor
+
+.specialties
+  background whiteColor url("../img/content/bg/specialty's-bg.jpg") no-repeat center 
+  background-size cover
+  color g-text
+  text-align center
+  &__name
+    OpenSansBold()
+    font-size .75rem
+    letter-spacing 0.5em
+    text-transform uppercase
+    line-height 100px 
+
+.contact
+  margin-top 90px
+  margin-bottom 70px
+  text-align center
+  &-form
+    display grid
+    grid-template-rows auto auto auto
+    grid-row-gap 8px 
+    &__input
+      display grid
+      grid-template-columns auto auto auto
+      grid-column-gap 8px
+      margin-top 50px
+    &__textarea
+      display grid
+      grid-template-columns auto
+      margin-bottom 35px
+    input, textarea
+      height 60px
+      border none
+      border-radius 5px
+      background inputColor
+      font-size .875rem
+      line-height 19px
+      text-indent 20px
+      color grayTextColor
+    textarea
+      height 120px
+      padding-top 20px
+    &__button_btn
+      width 640px
+      height 60px
+      background lineColor
+      color whiteColor
+      &:hover
+        color lineColor
+        background-color grayTextColor

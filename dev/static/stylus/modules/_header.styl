@@ -1,0 +1,59 @@
+.header
+  background whiteColor url("../img/content/bg/header-bg.jpg") no-repeat center 
+  background-size cover
+  height 100vh
+  color whiteColor
+  text-align center
+  &__wrap
+    display flex
+    justify-content center
+    margin-top 8%
+    
+  &-block
+    display flex
+    flex-wrap wrap
+    flex-direction column
+    align-items center
+    //justify-content center
+    //text-align center
+    align-content center
+    text-transform uppercase
+  
+  &__name
+    OpenSansBold()
+    font-size 0.75rem
+    line-height 14px
+    letter-spacing 0.5em
+  &__title
+    Acme()
+    font-size 6rem
+    margin-top 10px
+    line-height normal
+    // letter-spacing 4px
+.button-block
+  display grid
+  grid-template-columns auto auto
+  grid-column-gap 40px
+  margin-top 30px
+  &__btn
+    width 200px
+    height: 60px
+    &_left
+      background-color lineColor
+      color whiteColor
+      &:hover
+        color lineColor
+        background none
+    &_right
+      border 1px solid grayColor
+      color whiteColor
+      background none
+      &:hover
+        color whiteColor
+        background lineColor
+      
+  
+
+  
+  
+

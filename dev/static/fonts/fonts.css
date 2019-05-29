@@ -1,0 +1,37 @@
+/*<link href="https://fonts.googleapis.com/css?family=Acme|Open+Sans:400,700&display=swap" rel="stylesheet">*/
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('Open_Sans/OpenSans-Regular.eot');
+    src: url('Open_Sans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Open_Sans/OpenSans-Regular.woff2') format('woff2'),
+        url('Open_Sans/OpenSans-Regular.woff') format('woff'),
+        url('Open_Sans/OpenSans-Regular.ttf') format('truetype'),
+        url('Open_Sans/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('Open_Sans/OpenSans-Bold.eot');
+    src: url('Open_Sans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Open_Sans/OpenSans-Bold.woff2') format('woff2'),
+        url('Open_Sans/OpenSans-Bold.woff') format('woff'),
+        url('Open_Sans/OpenSans-Bold.ttf') format('truetype'),
+        url('Open_Sans/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acme';
+    src: url('Acme/Acme-Regular.eot');
+    src: url('Acme/Acme-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Acme/Acme-Regular.woff2') format('woff2'),
+        url('Acme/Acme-Regular.woff') format('woff'),
+        url('Acme/Acme-Regular.ttf') format('truetype'),
+        url('Acme/Acme-Regular.svg#Acme-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
